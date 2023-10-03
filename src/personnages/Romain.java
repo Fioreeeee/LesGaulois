@@ -30,5 +30,12 @@ public class Romain {
 			parler("J'abandonne...");
 		}
 	}
+	
+	public static void main(String[] args) {
+		Romain julescesar = new Romain("Jules César", 8);
+		System.out.println(julescesar);
+		julescesar.parler("ceci est un test");
+		julescesar.recevoirCoup(2);
+	}
 }
 
